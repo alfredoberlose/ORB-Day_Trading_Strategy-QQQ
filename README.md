@@ -3,8 +3,7 @@
 This repository provides a complete Python implementation and backtest of the Opening Range Breakout (ORB) intraday trading strategy applied to the **QQQ ETF** (Nasdaq-100).  
 The implementation is inspired by the academic research paper:
 
-> **Can Day Trading Really Be Profitable?**  
-> Carlo Zarattini & Andrew Aziz, 2024  
+> **Can Day Trading Really Be Profitable?** > Carlo Zarattini & Andrew Aziz, 2024  
 > SSRN ID: [4416622](https://ssrn.com/abstract=4416622)
 
 ---
@@ -31,3 +30,11 @@ The ORB strategy (Opening Range Breakout) is a popular day trading method based 
 - The strategy includes basic risk management: **1% risk per trade**, **4x leverage**, and **$0.0005/share** in commissions.
 
 This approach captures early volatility and follows directional momentum intraday.
+
+---
+
+## Performance Snapshot
+
+Below is a comparison of the strategy's equity curve against a standard Buy-and-Hold benchmark for QQQ.
+
+![ORB vs Buy & Hold](ORB_vs_BH.png)
